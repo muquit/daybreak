@@ -10,5 +10,5 @@ result = RubyProf.profile do
 end
 File.unlink './t.db'
 printer = RubyProf::MultiPrinter.new(result)
-FileUtils.mkdir('./profile') unless File.exists? './profile'
+FileUtils.mkdir('./profile') unless File.exist? './profile'
 printer.print :path => './profile', :profile => 'profile'

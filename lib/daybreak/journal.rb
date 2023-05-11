@@ -199,7 +199,7 @@ module Daybreak
       yield(path, file)
     ensure
       file.close unless file.closed?
-      File.unlink(path) if File.exists?(path)
+      File.unlink(path) if File.exist?(path)
     end
   end
 end

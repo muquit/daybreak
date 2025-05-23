@@ -20,9 +20,14 @@ daybreak 0.3.2 built to pkg/daybreak-0.3.2.gem
 
 # Install
 
+Do not install by calling: `gem install daybreak`, you will install the 
+old version, which does not work with newer versions of ruby. Install from
+llocal gem as follows:
+
 ```
 gem install --force --no-document pkg/daybreak-0.3.2.gem
 ```
+If you are not using rvm, `sudo` the command.
 
 # Examples
 

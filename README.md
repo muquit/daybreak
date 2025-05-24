@@ -29,9 +29,10 @@ gem install --force --no-document pkg/daybreak-0.3.2.gem
 ```
 If you are not using rvm, `sudo` the command.
 
+```markdown
 # Examples
+See the [`examples/`](examples/) directory for sample scripts:
 
-`./examples/` directory has some scripts:
 
 - `ruby create_db.rb` - create database
 - `ruby dump_db.rb`      - dump all data

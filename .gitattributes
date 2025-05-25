@@ -1,5 +1,12 @@
+# --- Force Ruby Files ---
 *.rb linguist-language=Ruby
 Gemfile linguist-language=Ruby
 Rakefile linguist-language=Ruby
 *.gemspec linguist-language=Ruby
 *.ru linguist-language=Ruby
+
+# --- De-emphasize HTML and JS ---
+*.html linguist-documentation
+*.js linguist-documentation
+*.css linguist-documentation
+

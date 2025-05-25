@@ -5,8 +5,7 @@ Rakefile linguist-language=Ruby
 *.gemspec linguist-language=Ruby
 *.ru linguist-language=Ruby
 
-# --- De-emphasize HTML and JS ---
-*.html linguist-documentation
-*.js linguist-documentation
-*.css linguist-documentation
-
+# --- De-emphasize specific HTML/JS/CSS (More Targeted) ---
+index.html linguist-documentation
+js/* linguist-documentation
+css/* linguist-documentation
